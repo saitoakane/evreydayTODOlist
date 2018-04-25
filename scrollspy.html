@@ -1,0 +1,87 @@
+・スクロールスパイの実装
+
+<body role="document" data-spy="scroll" data-target="#scrollSpy" data-offset="72" id="top">
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　-- ① --                      -- ❷ --
+    <div id="scrollSpy">
+             -- ❶ --
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#top">TOPPAGE</a>
+                                                 -- ② --
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#scrollspyicon">
+                                     -- ③ --
+                     <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div><!-- navbar-header -->
+                <div class="collapse navbar-collapse" id="scrollspyicon">
+                                                           -- ❸ --
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#sampleA">sample1</a></li>
+                        <li><a href="#sampleB">sample2</a></li>
+                        <li><a href="#sampleC">sample3</a></li>
+                               -- ④ --
+                    </ul>
+                    <p class="navbar-text navbar-right">samplelist</p>
+                </div>      <!-- collapse -->
+            </div>    <!-- container -->
+        </nav>
+    </div>      <!-- #scrollSpy -->
+
+
+
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>sample scroll spy</h1>
+        </div>
+    </div>
+    <div class="container">
+        <h2 id="sampleA">Ａ</h2>
+             -- ❹ --
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+        <h2 id="sampleB">Ｂ</h2>
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+        <h2 id="sampleC">Ｃ</h2>
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="http://foo.tld/jquery/animatescroll.js-master/animatescroll.noeasing.js"></script>
+
+
+
+
+
+</body>
